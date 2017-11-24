@@ -14,8 +14,8 @@ from utils import *
 class Optimizer():
     """Class that implements genetic algorithm for MLP optimization."""
 
-    def __init__(self, parameters_to_optimize, retain=0.3,
-                 random_select=0.1, mutate_chance=0.3):
+    def __init__(self, parameters_to_optimize, retain=0.5,
+                 random_select=0.2, mutate_chance=0.35):
         """Create an optimizer.
 
         Args:
@@ -212,7 +212,10 @@ class Optimizer():
                 print("breeding")
 
                 # Breed them.
-                babies = self.breed(male, female)
+                try:
+                    babies = self.breed(male, female)
+                except Exception as e:
+                    print(e)
 
                 print("end breeding")
 
