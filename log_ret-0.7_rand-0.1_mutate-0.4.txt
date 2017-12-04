@@ -1,0 +1,181 @@
+11/30/2017 08:44:22 AM - INFO - ***Evolving 20 generations with population 20***
+11/30/2017 08:44:22 AM - INFO - Generation 1
+11/30/2017 08:54:01 AM - INFO - Generation average accuracy: 97.84%
+11/30/2017 08:54:01 AM - INFO - Generation average loss: 0.09%
+11/30/2017 08:54:01 AM - INFO - --------------------------------------------------------------------------------
+11/30/2017 08:54:01 AM - INFO - --------------------------------------------------------------------------------
+11/30/2017 08:54:01 AM - INFO - 
+11/30/2017 08:54:01 AM - INFO - {'number_of_layers': 1, 'neurons_per_layer': [768], 'optimizer': 'adam', 'activation': 'relu', 'dropout_per_layer': [0.2]}
+11/30/2017 08:54:01 AM - INFO - Network accuracy: 98.36%
+11/30/2017 08:54:01 AM - INFO - Network loss: 0.07%
+11/30/2017 08:54:01 AM - INFO - Generation 2
+11/30/2017 09:03:47 AM - INFO - Generation average accuracy: 98.03%
+11/30/2017 09:03:47 AM - INFO - Generation average loss: 0.08%
+11/30/2017 09:03:47 AM - INFO - --------------------------------------------------------------------------------
+11/30/2017 09:03:47 AM - INFO - --------------------------------------------------------------------------------
+11/30/2017 09:03:47 AM - INFO - 
+11/30/2017 09:03:47 AM - INFO - {'number_of_layers': 1, 'neurons_per_layer': [1024], 'optimizer': 'adam', 'activation': 'sigmoid', 'dropout_per_layer': [0.6]}
+11/30/2017 09:03:47 AM - INFO - Network accuracy: 98.46%
+11/30/2017 09:03:47 AM - INFO - Network loss: 0.06%
+11/30/2017 09:03:47 AM - INFO - Generation 3
+11/30/2017 09:15:24 AM - INFO - Generation average accuracy: 98.02%
+11/30/2017 09:15:24 AM - INFO - Generation average loss: 0.08%
+11/30/2017 09:15:24 AM - INFO - --------------------------------------------------------------------------------
+11/30/2017 09:15:24 AM - INFO - --------------------------------------------------------------------------------
+11/30/2017 09:15:24 AM - INFO - 
+11/30/2017 09:15:24 AM - INFO - {'number_of_layers': 1, 'neurons_per_layer': [1024, 1024], 'optimizer': 'adam', 'activation': 'sigmoid', 'dropout_per_layer': [0.6]}
+11/30/2017 09:15:24 AM - INFO - Network accuracy: 98.41%
+11/30/2017 09:15:24 AM - INFO - Network loss: 0.06%
+11/30/2017 09:15:24 AM - INFO - Generation 4
+11/30/2017 09:27:38 AM - INFO - Generation average accuracy: 98.13%
+11/30/2017 09:27:38 AM - INFO - Generation average loss: 0.07%
+11/30/2017 09:27:38 AM - INFO - --------------------------------------------------------------------------------
+11/30/2017 09:27:38 AM - INFO - --------------------------------------------------------------------------------
+11/30/2017 09:27:38 AM - INFO - 
+11/30/2017 09:27:38 AM - INFO - {'number_of_layers': 1, 'neurons_per_layer': [1024], 'optimizer': 'adam', 'activation': 'relu', 'dropout_per_layer': [0.6]}
+11/30/2017 09:27:38 AM - INFO - Network accuracy: 98.41%
+11/30/2017 09:27:38 AM - INFO - Network loss: 0.06%
+11/30/2017 09:27:38 AM - INFO - Generation 5
+11/30/2017 09:40:14 AM - INFO - Generation average accuracy: 98.20%
+11/30/2017 09:40:14 AM - INFO - Generation average loss: 0.07%
+11/30/2017 09:40:14 AM - INFO - --------------------------------------------------------------------------------
+11/30/2017 09:40:14 AM - INFO - --------------------------------------------------------------------------------
+11/30/2017 09:40:14 AM - INFO - 
+11/30/2017 09:40:14 AM - INFO - {'number_of_layers': 1, 'neurons_per_layer': [768], 'optimizer': 'adam', 'activation': 'relu', 'dropout_per_layer': [0.6]}
+11/30/2017 09:40:14 AM - INFO - Network accuracy: 98.54%
+11/30/2017 09:40:14 AM - INFO - Network loss: 0.06%
+11/30/2017 09:40:14 AM - INFO - Generation 6
+11/30/2017 09:52:39 AM - INFO - Generation average accuracy: 98.22%
+11/30/2017 09:52:39 AM - INFO - Generation average loss: 0.07%
+11/30/2017 09:52:39 AM - INFO - --------------------------------------------------------------------------------
+11/30/2017 09:52:39 AM - INFO - --------------------------------------------------------------------------------
+11/30/2017 09:52:39 AM - INFO - 
+11/30/2017 09:52:39 AM - INFO - {'number_of_layers': 1, 'neurons_per_layer': [768, 768, 768, 768, 768], 'optimizer': 'adam', 'activation': 'relu', 'dropout_per_layer': [0.6, 0.6, 0.6, 0.6, 0.6]}
+11/30/2017 09:52:39 AM - INFO - Network accuracy: 98.47%
+11/30/2017 09:52:39 AM - INFO - Network loss: 0.06%
+11/30/2017 09:52:39 AM - INFO - Generation 7
+11/30/2017 10:06:05 AM - INFO - Generation average accuracy: 98.33%
+11/30/2017 10:06:05 AM - INFO - Generation average loss: 0.07%
+11/30/2017 10:06:05 AM - INFO - --------------------------------------------------------------------------------
+11/30/2017 10:06:05 AM - INFO - --------------------------------------------------------------------------------
+11/30/2017 10:06:05 AM - INFO - 
+11/30/2017 10:06:05 AM - INFO - {'number_of_layers': 1, 'neurons_per_layer': [768], 'optimizer': 'adam', 'activation': 'relu', 'dropout_per_layer': [0.6]}
+11/30/2017 10:06:05 AM - INFO - Network accuracy: 98.53%
+11/30/2017 10:06:05 AM - INFO - Network loss: 0.06%
+11/30/2017 10:06:05 AM - INFO - Generation 8
+11/30/2017 10:17:50 AM - INFO - Generation average accuracy: 98.30%
+11/30/2017 10:17:50 AM - INFO - Generation average loss: 0.06%
+11/30/2017 10:17:50 AM - INFO - --------------------------------------------------------------------------------
+11/30/2017 10:17:50 AM - INFO - --------------------------------------------------------------------------------
+11/30/2017 10:17:50 AM - INFO - 
+11/30/2017 10:17:50 AM - INFO - {'number_of_layers': 1, 'neurons_per_layer': [1024], 'optimizer': 'adam', 'activation': 'relu', 'dropout_per_layer': [0.6]}
+11/30/2017 10:17:50 AM - INFO - Network accuracy: 98.55%
+11/30/2017 10:17:50 AM - INFO - Network loss: 0.06%
+11/30/2017 10:17:50 AM - INFO - Generation 9
+11/30/2017 10:30:28 AM - INFO - Generation average accuracy: 98.30%
+11/30/2017 10:30:28 AM - INFO - Generation average loss: 0.06%
+11/30/2017 10:30:28 AM - INFO - --------------------------------------------------------------------------------
+11/30/2017 10:30:28 AM - INFO - --------------------------------------------------------------------------------
+11/30/2017 10:30:28 AM - INFO - 
+11/30/2017 10:30:28 AM - INFO - {'number_of_layers': 1, 'neurons_per_layer': [1024], 'optimizer': 'adam', 'activation': 'relu', 'dropout_per_layer': [0.6]}
+11/30/2017 10:30:28 AM - INFO - Network accuracy: 98.53%
+11/30/2017 10:30:28 AM - INFO - Network loss: 0.06%
+11/30/2017 10:30:28 AM - INFO - Generation 10
+11/30/2017 10:45:29 AM - INFO - Generation average accuracy: 98.33%
+11/30/2017 10:45:29 AM - INFO - Generation average loss: 0.06%
+11/30/2017 10:45:29 AM - INFO - --------------------------------------------------------------------------------
+11/30/2017 10:45:29 AM - INFO - --------------------------------------------------------------------------------
+11/30/2017 10:45:29 AM - INFO - 
+11/30/2017 10:45:29 AM - INFO - {'number_of_layers': 1, 'neurons_per_layer': [1024], 'optimizer': 'adam', 'activation': 'relu', 'dropout_per_layer': [0.6]}
+11/30/2017 10:45:29 AM - INFO - Network accuracy: 98.48%
+11/30/2017 10:45:29 AM - INFO - Network loss: 0.06%
+11/30/2017 10:45:29 AM - INFO - Generation 11
+11/30/2017 11:00:07 AM - INFO - Generation average accuracy: 98.33%
+11/30/2017 11:00:07 AM - INFO - Generation average loss: 0.06%
+11/30/2017 11:00:07 AM - INFO - --------------------------------------------------------------------------------
+11/30/2017 11:00:07 AM - INFO - --------------------------------------------------------------------------------
+11/30/2017 11:00:07 AM - INFO - 
+11/30/2017 11:00:07 AM - INFO - {'number_of_layers': 1, 'neurons_per_layer': [768], 'optimizer': 'adam', 'activation': 'relu', 'dropout_per_layer': [0.6]}
+11/30/2017 11:00:07 AM - INFO - Network accuracy: 98.57%
+11/30/2017 11:00:07 AM - INFO - Network loss: 0.06%
+11/30/2017 11:00:07 AM - INFO - Generation 12
+11/30/2017 11:15:24 AM - INFO - Generation average accuracy: 98.33%
+11/30/2017 11:15:24 AM - INFO - Generation average loss: 0.06%
+11/30/2017 11:15:24 AM - INFO - --------------------------------------------------------------------------------
+11/30/2017 11:15:24 AM - INFO - --------------------------------------------------------------------------------
+11/30/2017 11:15:24 AM - INFO - 
+11/30/2017 11:15:24 AM - INFO - {'number_of_layers': 1, 'neurons_per_layer': [1024, 1024], 'optimizer': 'adam', 'activation': 'relu', 'dropout_per_layer': [0.6]}
+11/30/2017 11:15:24 AM - INFO - Network accuracy: 98.52%
+11/30/2017 11:15:24 AM - INFO - Network loss: 0.06%
+11/30/2017 11:15:24 AM - INFO - Generation 13
+11/30/2017 11:31:44 AM - INFO - Generation average accuracy: 98.25%
+11/30/2017 11:31:44 AM - INFO - Generation average loss: 0.07%
+11/30/2017 11:31:44 AM - INFO - --------------------------------------------------------------------------------
+11/30/2017 11:31:44 AM - INFO - --------------------------------------------------------------------------------
+11/30/2017 11:31:44 AM - INFO - 
+11/30/2017 11:31:44 AM - INFO - {'number_of_layers': 1, 'neurons_per_layer': [768], 'optimizer': 'adam', 'activation': 'relu', 'dropout_per_layer': [0.6, 0.6, 0.6, 0.6]}
+11/30/2017 11:31:44 AM - INFO - Network accuracy: 98.54%
+11/30/2017 11:31:44 AM - INFO - Network loss: 0.06%
+11/30/2017 11:31:44 AM - INFO - Generation 14
+11/30/2017 11:50:17 AM - INFO - Generation average accuracy: 98.36%
+11/30/2017 11:50:17 AM - INFO - Generation average loss: 0.06%
+11/30/2017 11:50:17 AM - INFO - --------------------------------------------------------------------------------
+11/30/2017 11:50:17 AM - INFO - --------------------------------------------------------------------------------
+11/30/2017 11:50:17 AM - INFO - 
+11/30/2017 11:50:17 AM - INFO - {'number_of_layers': 1, 'neurons_per_layer': [1024], 'optimizer': 'adam', 'activation': 'relu', 'dropout_per_layer': [0.6]}
+11/30/2017 11:50:17 AM - INFO - Network accuracy: 98.53%
+11/30/2017 11:50:17 AM - INFO - Network loss: 0.06%
+11/30/2017 11:50:17 AM - INFO - Generation 15
+11/30/2017 12:06:59 PM - INFO - Generation average accuracy: 98.34%
+11/30/2017 12:06:59 PM - INFO - Generation average loss: 0.06%
+11/30/2017 12:06:59 PM - INFO - --------------------------------------------------------------------------------
+11/30/2017 12:06:59 PM - INFO - --------------------------------------------------------------------------------
+11/30/2017 12:06:59 PM - INFO - 
+11/30/2017 12:06:59 PM - INFO - {'number_of_layers': 1, 'neurons_per_layer': [768], 'optimizer': 'adam', 'activation': 'relu', 'dropout_per_layer': [0.6]}
+11/30/2017 12:06:59 PM - INFO - Network accuracy: 98.54%
+11/30/2017 12:06:59 PM - INFO - Network loss: 0.06%
+11/30/2017 12:06:59 PM - INFO - Generation 16
+11/30/2017 12:25:54 PM - INFO - Generation average accuracy: 98.27%
+11/30/2017 12:25:54 PM - INFO - Generation average loss: 0.06%
+11/30/2017 12:25:54 PM - INFO - --------------------------------------------------------------------------------
+11/30/2017 12:25:54 PM - INFO - --------------------------------------------------------------------------------
+11/30/2017 12:25:54 PM - INFO - 
+11/30/2017 12:25:54 PM - INFO - {'number_of_layers': 1, 'neurons_per_layer': [1024, 1024], 'optimizer': 'adam', 'activation': 'relu', 'dropout_per_layer': [0.6, 0.6]}
+11/30/2017 12:25:54 PM - INFO - Network accuracy: 98.53%
+11/30/2017 12:25:54 PM - INFO - Network loss: 0.06%
+11/30/2017 12:25:54 PM - INFO - Generation 17
+11/30/2017 12:42:55 PM - INFO - Generation average accuracy: 98.34%
+11/30/2017 12:42:55 PM - INFO - Generation average loss: 0.06%
+11/30/2017 12:42:55 PM - INFO - --------------------------------------------------------------------------------
+11/30/2017 12:42:55 PM - INFO - --------------------------------------------------------------------------------
+11/30/2017 12:42:55 PM - INFO - 
+11/30/2017 12:42:55 PM - INFO - {'number_of_layers': 1, 'neurons_per_layer': [768], 'optimizer': 'adam', 'activation': 'relu', 'dropout_per_layer': [0.6]}
+11/30/2017 12:42:55 PM - INFO - Network accuracy: 98.57%
+11/30/2017 12:42:55 PM - INFO - Network loss: 0.06%
+11/30/2017 12:42:55 PM - INFO - Generation 18
+11/30/2017 01:01:36 PM - INFO - Generation average accuracy: 98.36%
+11/30/2017 01:01:36 PM - INFO - Generation average loss: 0.06%
+11/30/2017 01:01:36 PM - INFO - --------------------------------------------------------------------------------
+11/30/2017 01:01:36 PM - INFO - --------------------------------------------------------------------------------
+11/30/2017 01:01:36 PM - INFO - 
+11/30/2017 01:01:36 PM - INFO - {'number_of_layers': 1, 'neurons_per_layer': [768], 'optimizer': 'adam', 'activation': 'relu', 'dropout_per_layer': [0.6]}
+11/30/2017 01:01:36 PM - INFO - Network accuracy: 98.59%
+11/30/2017 01:01:36 PM - INFO - Network loss: 0.06%
+11/30/2017 01:01:36 PM - INFO - Generation 19
+11/30/2017 01:20:53 PM - INFO - Generation average accuracy: 98.37%
+11/30/2017 01:20:53 PM - INFO - Generation average loss: 0.06%
+11/30/2017 01:20:53 PM - INFO - --------------------------------------------------------------------------------
+11/30/2017 01:20:53 PM - INFO - --------------------------------------------------------------------------------
+11/30/2017 01:20:53 PM - INFO - 
+11/30/2017 01:20:53 PM - INFO - {'number_of_layers': 1, 'neurons_per_layer': [768, 768, 768, 768, 768], 'optimizer': 'adam', 'activation': 'relu', 'dropout_per_layer': [0.6, 0.6, 0.6, 0.6, 0.6]}
+11/30/2017 01:20:53 PM - INFO - Network accuracy: 98.59%
+11/30/2017 01:20:53 PM - INFO - Network loss: 0.06%
+11/30/2017 01:20:53 PM - INFO - Generation 20
+11/30/2017 01:39:23 PM - INFO - Generation average accuracy: 98.42%
+11/30/2017 01:39:23 PM - INFO - Generation average loss: 0.06%
+11/30/2017 01:39:23 PM - INFO - --------------------------------------------------------------------------------
+11/30/2017 01:39:23 PM - INFO - --------------------------------------------------------------------------------
+11/30/2017 01:39:23 PM - INFO - 
+11/30/2017 01:39:23 PM - INFO - {'number_of_layers': 1, 'neurons_per_layer': [768], 'optimizer': 'adam', 'activation': 'relu', 'dropout_per_layer': [0.6]}
+11/30/2017 01:39:23 PM - INFO - Network accuracy: 98.54%
+11/30/2017 01:39:23 PM - INFO - Network loss: 0.05%

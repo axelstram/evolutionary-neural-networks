@@ -6,7 +6,7 @@ from keras.models import Sequential
 from keras.layers import Dense, Dropout
 from keras.utils.np_utils import to_categorical
 from keras.callbacks import EarlyStopping
-from keras.utils import plot_model
+#from keras.utils import plot_model
 from utils import *
 
 early_stopper = EarlyStopping(patience=5)
@@ -93,7 +93,7 @@ class Network():
         """Retrieve the MNIST dataset and process the data."""
         # Set defaults.
         nb_classes = 10
-        batch_size = 128
+        batch_size = 100
         input_shape = (784,)
 
         # Get the data.
@@ -195,7 +195,8 @@ class Network():
 
     def print_network(self):
         """Print out a network."""
-        plot_model(self.model, to_file='model.png', show_shapes=True)
+        #plot_model(self.model, to_file='model.png', show_shapes=True)
+        logging.info("")
         logging.info(self.network)
         logging.info("Network accuracy: %.2f%%" % (self.accuracy * 100))
         logging.info("Network loss: %.2f%%" % (self.loss))

@@ -1,10 +1,3 @@
-"""
-Class that holds a genetic algorithm for evolving a network.
-
-Credit:
-    A lot of those code was originally inspired by:
-    http://lethain.com/genetic-algorithms-cool-name-damn-simple/
-"""
 from functools import reduce
 from operator import add
 import random
@@ -12,38 +5,17 @@ from network import Network
 from utils import *
 
 class Optimizer():
-    """Class that implements genetic algorithm for MLP optimization."""
 
-    def __init__(self, parameters_to_optimize, retain=0.5,
-                 random_select=0.2, mutate_chance=0.35):
-        """Create an optimizer.
+    def __init__(self, parameters_to_optimize, retain=0.7,
+                 random_select=0.1, mutate_chance=0.4):
 
-        Args:
-            parameters_to_optimize (dict): network parameters to optimize
-            retain (float): Percentage of population to retain after
-                each generation
-            random_select (float): Probability of a rejected network
-                remaining in the population
-            mutate_chance (float): Probability a network will be
-                randomly mutated
-
-        """
         self.mutate_chance = mutate_chance
         self.random_select = random_select
         self.retain = retain
         self.parameters_to_optimize = parameters_to_optimize
 
     def create_population(self, size):
-        """Create a population of random networks.
 
-        Args:
-            size (int): Number of networks to generate, aka the
-                size of the population
-
-        Returns:
-            (list): Population of network objects
-
-        """
         population = []
         for _ in range(0, size):
             # Create a random network.
@@ -57,33 +29,15 @@ class Optimizer():
 
     @staticmethod
     def fitness(network):
-        """Return the accuracy, which is our fitness function."""
         return network.accuracy
 
     def grade(self, pop):
-        """Find average fitness for a population.
 
-        Args:
-            pop (list): The population of networks
-
-        Returns:
-            (float): The average accuracy of the population
-
-        """
         summed = reduce(add, (self.fitness(network) for network in pop))
         return summed / float((len(pop)))
 
     def breed(self, mother, father):
-        """Make two children as parts of their parents.
 
-        Args:
-            mother (dict): Network parameters
-            father (dict): Network parameters
-
-        Returns:
-            (list): Two network objects
-
-        """
         children = []
         for _ in range(2):
 
@@ -98,8 +52,6 @@ class Optimizer():
 
             if type(child['dropout_per_layer']) is float:
                 child['dropout_per_layer'] = [child['dropout_per_layer']]
-
-            print("number of layers: " + str(child['number_of_layers']) + ", neurons_per_layer: " + str(len(child['neurons_per_layer'])) + ", dropout_per_layer: " + str(len(child['dropout_per_layer'])))
 
             # Now create a network object.
             network = Network(self.parameters_to_optimize)
@@ -116,15 +68,7 @@ class Optimizer():
         return children
 
     def mutate(self, network):
-        """Randomly mutate one part of the network.
 
-        Args:
-            network (dict): The network parameters to mutate
-
-        Returns:
-            (Network): A randomly mutated network object
-
-        """
         # Choose a random key.
         parameter = random.choice(list(self.parameters_to_optimize.keys()))
         #print("mutating key: " + str(parameter))
@@ -157,15 +101,6 @@ class Optimizer():
         return network
 
     def evolve(self, pop):
-        """Evolve a population of networks.
-
-        Args:
-            pop (list): A list of network parameters
-
-        Returns:
-            (list): The evolved population of networks
-
-        """
 
         # Get scores for each network.
         graded = [(self.fitness(network), network) for network in pop]
@@ -199,9 +134,6 @@ class Optimizer():
             male = random.randint(0, parents_length-1)
             female = random.randint(0, parents_length-1)
 
-            print("parents length: " + str(parents_length))
-            print("desired_length: " + str(desired_length))
-            print("current length: " + str(len(children)))
             print(male, female)
 
             # Assuming they aren't the same network...
@@ -209,15 +141,11 @@ class Optimizer():
                 male = parents[male]
                 female = parents[female]
 
-                print("breeding")
-
                 # Breed them.
                 try:
                     babies = self.breed(male, female)
                 except Exception as e:
-                    print(e)
-
-                print("end breeding")
+                    print("exception " + str(e))
 
                 # Add the children one at a time.
                 for baby in babies:

@@ -82,9 +82,9 @@ def generate(generations, population_size, parameters_to_optimize, dataset):
         if i != generations - 1:
             # Do the evolution.
             networks = optimizer.evolve(networks)
-
-    # Print out the top network.
-    print_best_networks(networks)
+	
+	# Print out the top network.
+	print_best_networks(networks)
 
 def print_best_networks(networks, n = 1):
     """Print the best N networks.
